@@ -1,7 +1,7 @@
 class Mysql < Formula
   homepage "https://dev.mysql.com/doc/refman/5.6/en/"
   url "http://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.24-osx10.9-x86_64.tar.gz"
-  sha1 "929e3788eb07760998f4d4e713c51739"
+  sha1 "81010db23d2f121126e1598ea80e73a583c6afdd"
 
   # Fixes compilation with OpenSSL 1.0.2
   # https://bugs.mysql.com/bug.php?id=75623
