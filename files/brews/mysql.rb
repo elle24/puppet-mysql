@@ -5,10 +5,10 @@ class Mysql < Formula
 
   # Fixes compilation with OpenSSL 1.0.2
   # https://bugs.mysql.com/bug.php?id=75623
-  patch do
-    url "https://github.com/mysql/mysql-server/pull/3.diff"
-    sha1 "6b17a31ee32e373dca0f257f7c7884ac6dcf8e1f"
-  end
+#  patch do
+#    url "https://github.com/mysql/mysql-server/pull/3.diff"
+#    sha1 "6b17a31ee32e373dca0f257f7c7884ac6dcf8e1f"
+#  end
 
   option :universal
   option "with-tests", "Build with unit tests"
